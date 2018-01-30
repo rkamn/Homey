@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.rakesh.homey.Visiting">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you are next to visiting"/>
 
-</android.support.constraint.ConstraintLayout>
+
+    <!--<EditText
+        android:id="@+id/etselectcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="select city"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your adress"/>
+    <EditText
+        android:id="@+id/select_no._of_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="select no. of room"/>
+    <EditText
+        android:id="@+id/available_bed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bed available total"/>
+-->
+</LinearLayout>

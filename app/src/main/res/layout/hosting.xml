@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.example.rakesh.homey.Hosting">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Host Details"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/DarkGreen"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/etselectcity"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:hint="select city"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="enter your adress"/>
+    <EditText
+        android:id="@+id/room_available"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:hint="No. of room available"/>
+    <EditText
+        android:id="@+id/bed_available"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:hint="Bed available (total)"/>
+    <EditText
+        android:id="@+id/bed_in_each_room"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:hint="Bed in each reoom"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text=" Veg.Food Available"/>
+    <Button
+        android:id="@+id/bnext"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="15dp"
+        android:textSize="22sp"
+        android:onClick="nexthosting"
+        android:text="next"
+        android:layout_gravity="center"
+        android:background="#d0e5f1"/>
+
+</LinearLayout>

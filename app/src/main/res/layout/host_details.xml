@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context="com.example.rakesh.homey.HostDetails">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hosting person Details"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/DarkGreen"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Enter Aadhar Number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Upload Your Aadhar Photo (max 200kb)"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Upload Your Photo (max 200kb)"/>
+    <Button
+        android:id="@+id/bsubmitdetails"
+        android:onClick="next"
+        android:layout_width="250dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="10dp"
+        android:text="submit details"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

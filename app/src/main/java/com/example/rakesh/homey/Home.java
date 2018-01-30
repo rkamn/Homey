@@ -8,12 +8,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class Home extends AppCompatActivity {
+public class Home extends AppCompatActivity /*implements View.OnClickListener*/ {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -27,13 +28,15 @@ public class Home extends AppCompatActivity {
         });
     }
 
-    public void vigiting(View view) {
-        Intent intent = new Intent(this,Vigiting.class);
-        startActivity(intent);
-    }
-
     public void hosting(View view) {
         Intent intent = new Intent(this,Hosting.class);
         startActivity(intent);
     }
+
+    public void visiting(View view) {
+        Intent intent = new Intent(Home.this,Visiting.class);
+        startActivity(intent);
+    }
+
+
 }

@@ -5,16 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Hosting extends AppCompatActivity {
+public class ConfirmHostDetails extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.hosting);
+        setContentView(R.layout.confirm_host_details);
     }
 
-    public void nexthosting(View view) {
-        Intent intent = new Intent(this,HostDetails.class);
+    public void hostsucessful(View view) {
+        Intent intent = new Intent(this,Hostsucessful.class);
         startActivity(intent);
     }
 }

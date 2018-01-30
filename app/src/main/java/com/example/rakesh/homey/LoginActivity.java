@@ -66,7 +66,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.login);
         // Set up the login form.
         etmail = (AutoCompleteTextView) findViewById(R.id.etmail);
         populateAutoComplete();
@@ -88,6 +88,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             @Override
             public void onClick(View view) {
                 attemptLogin();
+                /*switch (view.getId()){
+                    case R.id.email_sign_in_button:
+                        if (true){
+                attemptLogin();
+
+                    Intent intent = new Intent(LoginActivity.this,Home.class);
+                    startActivity(intent);
+                }
+            }*/
             }
         });
 

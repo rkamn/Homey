@@ -20,7 +20,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.register);
         myDb=new DatabaseHelper(this);
         etfname=(EditText) findViewById(R.id.etfname);
         etemail=(EditText) findViewById(R.id.etemail);
