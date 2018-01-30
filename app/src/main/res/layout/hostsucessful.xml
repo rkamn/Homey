@@ -9,6 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/Yellow"
         android:text="host last page, Thank you"/>
 
 </android.support.constraint.ConstraintLayout>
