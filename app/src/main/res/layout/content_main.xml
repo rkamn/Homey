@@ -11,18 +11,18 @@
     tools:showIn="@layout/app_bar_main">
 
     <ImageView
-        android:id="@+id/ivlogo"
-        android:layout_marginTop="60dp"
-        android:layout_width="100sp"
-        android:layout_height="100sp"
+        android:id="@+id/ivhomeylogo"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
         android:layout_gravity="center"
-        android:background="@color/colorPrimary" />
+        android:layout_marginTop="80dp"
+        android:background="@drawable/homeylogo" />
     <TextView
         android:id="@+id/tvwelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome"
-        android:layout_margin="70dp"
+        android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="55sp"/>
