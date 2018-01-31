@@ -37,7 +37,8 @@
         <activity android:name=".HostDetails" />
         <activity android:name=".Hosting" />
         <activity android:name=".ConfirmHostDetails" />
-        <activity android:name=".Hostsucessful"></activity>
+        <activity android:name=".Hostsucessful" />
+        <activity android:name=".VisitorDetails"></activity>
     </application>
 
 </manifest>
