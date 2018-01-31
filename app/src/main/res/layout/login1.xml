@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rakesh.homey.Login1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username:"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="username"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="#352aab"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="password:"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/etpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="password"
+                android:maxLength="10"
+                android:inputType="textPassword"
+                android:textColor="#872712"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:contextClickable="true"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/bsubmit"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:background="#adb9e2"
+            android:textColor="#2b4d15"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/bsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sign up"
+            android:background="#fad0d0"
+            android:textColor="#400a0a"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvregisterlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#0321e1"
+        android:text="register here"/>
+
+</LinearLayout>

@@ -25,9 +25,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
         <activity android:name=".Register" />
         <activity
             android:name=".Home"
@@ -38,7 +35,8 @@
         <activity android:name=".Hosting" />
         <activity android:name=".ConfirmHostDetails" />
         <activity android:name=".Hostsucessful" />
-        <activity android:name=".VisitorDetails"></activity>
+        <activity android:name=".VisitorDetails" />
+        <activity android:name=".Login1"></activity>
     </application>
 
 </manifest>

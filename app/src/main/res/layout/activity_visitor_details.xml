@@ -4,36 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_marginTop="8dp"
     tools:context="com.example.rakesh.homey.VisitorDetails">
-
-     <EditText
+     <!--<Button
+         android:id="@+id/picdate"
+         android:layout_gravity="center"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
+         android:text="Visiting Date"/>-->
+     <TextView
+         android:textColor="@color/Black"
+         android:layout_width="match_parent"
+         android:textSize="20sp"
+         android:layout_height="wrap_content"
          android:hint="select city"/>
-     <CalendarView
-         android:layout_width="wrap_content"
-         android:layout_height="80dp"
-         android:hint="select Date"/>
-    <TimePicker
-        android:id="@+id/visitingtime"
+    <Spinner
         android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_marginTop="5dp"
-        android:hint="select time"/>
-    <TimePicker
-        android:id="@+id/checkouttime"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:hint="chekout Time"/>
+        android:layout_height="wrap_content"></Spinner>
+
+
+
+
     <Button
         android:id="@+id/visitornextcontent"
         android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="next
-"/>
+        android:text="next"/>
 
 
 </LinearLayout>
